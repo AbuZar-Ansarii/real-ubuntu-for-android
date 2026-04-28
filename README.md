@@ -1,5 +1,6 @@
 # 🐧Real Ubuntu for Android📱
 **The Ultimate Desktop Experience on Android Phone.** **Maintained by [TheVoidKernel](https://youtube.com/@thevoidkernel)**
+
 Real Ubuntu for Android is an automated deployment system designed to bring a high-performance Ubuntu Jammy (22.04) environment with a full XFCE4 Desktop to your mobile device.
 
 ---
@@ -9,7 +10,7 @@ Real Ubuntu for Android is an automated deployment system designed to bring a hi
 - **[Termux X11 Apk](https://github.com/termux/termux-x11/releases)**
 - **[Termux Apk](https://f-droid.org/en/packages/com.termux/)**
 - **Android 11.0+** (recommended)
-- **Storage space:** At least 4GB free
+- **Storage space:** At least 7GB free
 
 ---
 ## 🛠️ Installation
