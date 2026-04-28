@@ -38,6 +38,8 @@ udroid login jammy:xfce4
 ```
 ```
 export DISPLAY=:1
+```
+```
 startxfce4 & 
 ```
 
