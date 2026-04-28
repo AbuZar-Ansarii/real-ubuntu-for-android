@@ -35,6 +35,8 @@ termux-x11 :1  -ac &
 
 ```
 udroid login jammy:xfce4
+```
+```
 export DISPLAY=:1
 startxfce4 & 
 ```
