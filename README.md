@@ -23,7 +23,7 @@ Run All *Linux & Windows Apps & AI Tools on phone* -
 ---
 <div align="center">
   
-## 🛠️ Installation
+# 🛠️ Installation
 </div>
 
 **Run these commands one by one**
@@ -101,18 +101,27 @@ env OPENSSL_ia32cap="~0x4000000000000000" /usr/share/antigravity/antigravity --n
 </div>
 
 ### Local Models
+
 ollama run qwen2.5-coder:3b
+
 ollama run qwen2.5:0.5b
+
 ollama run qwen2.5:1.5b
+
 ollama run llama3.2
+
 ollama run llama3.2:3b
 
 ### Cloud Models
 
 **Login Required**
+
 ollama run gemma4:31b-cloud
+
 ollama run ministral-3:14b-cloud
+
 ollama run nemotron-3-super:cloud
+
 ollama run gemini-3-flash-preview:cloud
 
 
