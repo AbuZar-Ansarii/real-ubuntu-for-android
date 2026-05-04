@@ -35,12 +35,16 @@ Install x11 repo
 pkg install x11-repo -y
 pkg install termux-x11-nightly -y
 ```
-## Start Ubuntu
+<div align="center">
+  
+# 🏁 Start Ubuntu  🐧
+</div>
+
 **Make sure to open termux x11 apk in background**
 ```
 termux-x11 :1  -ac &
 ```
-**Start desplay**
+** Start desplay**
 
 ```
 udroid login jammy:xfce4
@@ -54,10 +58,17 @@ startxfce4 &
 ---
 <div align="center">
   
-# .✦ ݁˖ Run AI Tools and Apps 📱
+# .✦ ݁˖ Install & Run AI Tools & Apps 📱
 </div>
----
 
+## </> Install Ollama 
+```
+curl -fsSL https://ollama.com/install.sh | sh
+```
+## </> Install Claude Code
+```
+curl -fsSL https://claude.ai/install.sh | bash
+```
 ## </> Command to Fix Claude Code 
 
 ```
@@ -79,5 +90,28 @@ env OPENSSL_ia32cap="~0x4000000000000000" /usr/share/antigravity/antigravity --n
 ./cursor --no-sandbox --disable-gpu
 ```
 ---
+
+<div align="center">
+  
+# .✦ ݁˖ [Ollama Models](https://ollama.com/search)
+</div>
+
+### Local Models
+ollama run qwen2.5-coder:3b
+ollama run qwen2.5:0.5b
+ollama run qwen2.5:1.5b
+ollama run llama3.2
+ollama run llama3.2:3b
+
+### Cloud Models
+
+**Login Required**
+ollama run gemma4:31b-cloud
+ollama run ministral-3:14b-cloud
+ollama run nemotron-3-super:cloud
+ollama run gemini-3-flash-preview:cloud
+
+
+
 ## 🏆 Contribution & Support
 If this project helped you, consider giving it a **⭐** Star on GitHub to help others find it!
